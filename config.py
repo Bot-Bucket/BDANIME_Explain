@@ -22,7 +22,7 @@ DB_NAME = os.environ.get("DB_NAME", "renamevjbot")
 
 DB_URL = os.environ.get("DB_URL", "mongodb+srv://AnimeComplex:AnimeComplex@animecomplex.jfmrv9d.mongodb.net/?retryWrites=true&w=majority")
  
-FLOOD = int(os.environ.get("FLOOD", "1"))
+FLOOD = int(os.environ.get("FLOOD", "10"))
 
 START_PIC = os.environ.get("START_PIC", "https://te.legra.ph/file/119729ea3cdce4fefb6a1.jpg")
 
